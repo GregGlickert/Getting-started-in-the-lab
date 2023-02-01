@@ -6,7 +6,24 @@
 ```
 conda create --name bmtk python=3.8
 ```
-### Then run the follow commands to activate your enviroment and install the python packages. If you are on a windows computer, to install neuron visit this [link](https://www.neuron.yale.edu/neuron/download) instead of using pip. You can also build bmtk from their GitHub but that should not be needed for now. Also make sure to downlaod this GitHub repo (WHICH ONE?) so you have the requirements.txt file on your computer. Then make sure to change your directory to this (WHICH ONE?) folder on your computer. 
+### If on MacOS you may need to put this command into your terminal to install command line tools if you don't know if you have them installed or not just put the command in and see what happens!
+```
+xcode-select --install
+```
+
+### Then run the follow commands to activate your enviroment and install the python packages. If you are on a windows computer, to install neuron visit this [link](https://www.neuron.yale.edu/neuron/download) instead of using pip. You can also build bmtk from their GitHub but that should not be needed for now. Also make sure to downlaod this GitHub repo by clicking on the green code block and selecting download zip so you have the requirements.txt file on your computer. Then make sure to change your working directory to the folder you just downloaded. 
+### Example command if you saved the folder onto your Desktop 
+
+### Mac- first open terminal then paste into terminal
+```
+cd Desktop/Getting-started-in-the-lab-main
+```
+### Windows-open anaconda promt then past into terminal but change USERNAME to whatever your windows username is
+```
+cd c:\Users\USERNAME\Desktop\Getting-started-in-the-lab-main
+```
+### The rest of the commands are the same if your on mac/windows
+
 ```
 conda activate bmtk
 pip install -r requirements.txt
